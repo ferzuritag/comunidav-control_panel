@@ -1,0 +1,85 @@
+body{
+    background-color: #f7f7f781;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0 0;
+}
+
+.banner{
+    background-color: #c2c1c1;
+    width: 100%;
+    height: 60px;
+    margin: 0 0;
+}
+.banner .logo{
+    height: 60px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.midBox{
+    position: relative;
+    height: calc(100vh - 90px);
+}
+
+.loginBox{
+    border: 1px solid #C8C7C7;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 420px;
+    border-radius: 10px;
+}
+.loginBox h1{
+    font-size: large;
+    color: grey;
+}
+.sendBtn{
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: #626bd3;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.sendBtn:hover{
+    background-color: #4b52a0;
+}
+.loginBox input{
+    border: 1px solid #C8C7C7;
+    background-color: #f7f7f781;
+    margin-top: 50px;
+    font-size: larger;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+.loginBox input::placeholder{
+    color: #989696;
+}
+.loginBox input:focus{
+    outline: none;
+    border: 2px solid #626bd3;
+}
+input[type = 'checkbox'],label{
+    cursor: pointer;
+}
+
+
+
+footer img{
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+
